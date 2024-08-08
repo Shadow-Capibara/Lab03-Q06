@@ -16,3 +16,6 @@ export interface Airline {
     email: string,
     address: string
 }
+export interface MessageState {
+    message: string
+}

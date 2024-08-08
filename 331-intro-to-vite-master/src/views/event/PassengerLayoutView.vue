@@ -46,7 +46,8 @@ const props = defineProps({
 
         <div id="nav">
         <RouterLink :to="{name: 'passenger-detail', params: { id } }">Details</RouterLink> |
-        <RouterLink :to="{name: 'passenger-airline', params: { id } }">Airline</RouterLink>
+        <RouterLink :to="{name: 'passenger-airline', params: { id } }">Airline</RouterLink> |
+        <RouterLink :to="{ name: 'passenger-edit-view'}">Edit</RouterLink>
        </div>
         
         <RouterView :passenger="passenger" ></RouterView>
